@@ -8,5 +8,5 @@ Selecciona, copia y pega el codigo en el &lt;body&gt; de tu pagina Bootstrap 5 p
 ### Bootstrap 5 media screen helper
 Select, copy and paste the code in the &lt;body&gt; tag of your's Bootstrap 5 page to see the helper. At the right bottom corner you will see in what type of media screen you actually are.  
 
-[View Demo](http://hugoganoza.com/gits/bs5-media-helper/)
+[View Demo](http://hugoganoza.com/gits/bs4-media-helper/)
 
