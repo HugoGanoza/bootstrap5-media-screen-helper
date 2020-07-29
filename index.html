@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/css/bootstrap.min.css" integrity="sha384-r4NyP46KrjDleawBgD5tp8Y7UzmLA05oM1iAEQ17CSuDqnUK2+k9luXQOfXJCJ4I" crossorigin="anonymous">
+    <link type="text/css" href="css/mi-css.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Encode+Sans+Semi+Expanded" rel="stylesheet">
+    <title>AYUDA PARA SABER EL TIPO DE PANTALLA ACTUAL SEGUN BOOTSTRAP 5</title>
+</head>
+
+<body>
+    <div class="container-fluid">
+        <header class="row mt-0 p-2 text-white justify-content-end align-items-center">
+            <div class="col-auto">
+                <a href="http://www.hugoganoza.com" target="_blank" class="h2">hugoganoza.com</a>
+            </div>
+            <div class="col-auto"><a href="http://www.hugoganoza.com" target="_blank" class="h2"><img src="img/hugoganoza.png" alt="Mi logo" height="" width="" title="hugoganoza.com"></a></div>
+        </header>
+        <main class="row">
+            <div class="col text-white">
+                <h3 class="mt-4">Ayuda para saber en que tipo de pantalla estamos segun Bootstrap 5</h3>
+                <p class="my-4">Selecciona, copia y pega este codigo en el <code>&lt;body&gt;</code> de tu pagina Bootstrap 5 para obtener la ayuda. En la esquina inferior derecha verás en que tipo de pantalla, segun Bootstrap, te encuentras:</p>
+                <pre class="mx-4">
+<span class="comentario">&lt;-- Copia y pega este codigo en el &lt;body&gt; de tu pagina Bootstrap 5 para obtener la ayuda --&gt;</span>
+<span class="comentario">&lt;-- Select, copy and paste the code in the &lt;body&gt; tag of your's Bootstrap 5 page to see the helper --&gt;</span>
+&lt;div class="container-fluid fixed-bottom"&gt;
+    &lt;div class="row"&gt;
+        &lt;div class="col-auto d-sm-none ml-auto bg-primary text-white"&gt;&lt;576px &lt;strong&gt;(xs - Extra Small)&lt;/strong&gt;&lt;/div&gt;
+        &lt;div class="col-auto d-none d-sm-block d-md-none ml-auto bg-secondary text-white"&gt;≥576px y &lt;768px &lt;strong&gt;(sm - Small)&lt;/strong&gt;&lt;/div&gt;
+        &lt;div class="col-auto d-none d-md-block d-lg-none ml-auto bg-success text-white"&gt;≥768px y &lt;992px &lt;strong&gt;(md -Medium)&lt;/strong&gt;&lt;/div&gt;
+        &lt;div class="col-auto d-none d-lg-block d-xl-none ml-auto bg-warning"&gt;≥992px y &lt;1200px &lt;strong&gt;(lg - Large)&lt;/strong&gt;&lt;/div&gt;
+        &lt;div class="col-auto d-none d-xl-block d-xxl-none ml-auto bg-info text-white"&gt;≥1200px y &lt;1700px &lt;strong&gt;(xl - Extra Large)&lt;/strong&gt;&lt;/div&gt;
+        &lt;div class="col-auto d-none d-xxl-block ml-auto bg-danger text-white"&gt;≥1700px &lt;strong&gt;(xxl - Extra Extra Large)&lt;/strong&gt;&lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;</pre>
+            </div>
+
+
+        </main>
+
+        <div class="container-fluid fixed-bottom">
+            <div class="row">
+                <div class="col-auto d-sm-none ml-auto bg-primary text-white">&lt;576px <strong>(xs - Extra Small)</strong></div>
+                <div class="col-auto d-none d-sm-block d-md-none ml-auto bg-secondary text-white">≥576px y &lt;768px <strong>(sm - Small)</strong></div>
+                <div class="col-auto d-none d-md-block d-lg-none ml-auto bg-success text-white">≥768px y &lt;992px <strong>(md -Medium)</strong></div>
+                <div class="col-auto d-none d-lg-block d-xl-none ml-auto bg-warning">≥992px y &lt;1200px <strong>(lg - Large)</strong></div>
+                <div class="col-auto d-none d-xl-block d-xxl-none ml-auto bg-info text-white">≥1200px y &lt;1700px <strong>(xl - Extra Large)</strong></div>
+                <div class="col-auto d-none d-xxl-block ml-auto bg-danger text-white">≥1700px <strong>(xxl - Extra Extra Large)</strong></div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
